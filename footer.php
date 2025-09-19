@@ -46,6 +46,8 @@
                                 <li><a href="career.php">Career</a></li>
                                 <li><a href="contact.php">Contact Us</a></li>
                                 <li><a href="influncer-marketing-in-pune.php">Influencer Marketing</a></li>
+                                <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                                <li><a href="influncer-marketing-in-pune.php">Terms & Conditions</a></li>
                             </ul>
                         </div>
                     </div>
