@@ -164,6 +164,25 @@
                                                                 </select>
                                                             </div>
                                                         </div>
+                                                        
+                                                          <style>
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  accent-color: #007bff; /* Optional: change checkbox color */
+}
+</style>
+
+                                                         <div class="col-lg-12">
+                                                        <input type="checkbox" id="vehicle1" name="vehicle1" value="RCS" required>
+<label for="vehicle1"> I authorize company representatives to Call, SMS, RCS, Email or WhatsApp me about its products and offers. This consent overrides any registration for DNC/NDNC.</label><br>
+</div>
+                                                        
+                                                        <div class="g-recaptcha"
+                                                            data-sitekey="6LfendMrAAAAAPjqDt8Kah3GsfNxpXPTpY0rh1aY">
+                                                        </div>
+                                                        <br>
+
                                                         <div class="col-lg-12">
 
                                                             <div class="tp-contact-form-btn">
@@ -177,6 +196,10 @@
                                                         </div>
                                                     </div>
                                                 </form>
+                                                <!-- Load Google reCAPTCHA script -->
+                                                <script src="https://www.google.com/recaptcha/api.js" async defer>
+                                                </script>
+
                                             </div>
                                         </div>
 
@@ -231,7 +254,7 @@
                 <!-- breadcurmb area end -->
 
                 <!-- postbox area start -->
-                <section id="postbox" class="postbox-area pt-110 pb-80">
+                <section id="postbox" class="postbox-area pt-110 pb-20">
                     <div class="container container-1330">
                         <div class="row">
                             <div class="col-xxl-8 col-xl-8 col-lg-8">
@@ -909,61 +932,130 @@
                                         <div class="rc-post-wrap">
                                             <div class="rc-post d-flex align-items-center">
                                                 <div class="rc-post-thumb">
-                                                    <a href="#">
-                                                        <img src="assets/img/blog/blog-standard/blog-rp-1.jpg" alt="">
+                                                    <a href="benefits-of-digital-marketing.php">
+                                                        <img src="assets/img/digital-marketing.webp" alt="" width="200">
                                                     </a>
                                                 </div>
                                                 <div class="rc-post-content">
                                                     <div class="rc-post-category">
-                                                        <a href="#">Design</a>
+                                                        <a href="benefits-of-digital-marketing.php">Marketing</a>
                                                     </div>
                                                     <h3 class="rc-post-title">
-                                                        <a href="#">Fueling ambition & Achieving
-                                                            your goals</a>
+                                                        <a href="benefits-of-digital-marketing.php">What are the
+                                                            benefits of digital marketing For Small Businesses?</a>
                                                     </h3>
                                                     <div class="rc-post-meta">
-                                                        <span>July 15, 2023</span>
+                                                        <span>Sept 16, 2025</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="rc-post d-flex align-items-center">
                                                 <div class="rc-post-thumb">
-                                                    <a href="#">
-                                                        <img src="assets/img/blog/blog-standard/blog-rp-2.jpg" alt="">
+                                                    <a href="biggest-trends-of-seo-in-2025.php">
+                                                        <img src="assets/img/WhatsApp Image 2025-10-06 at 4.57.14 PM.jpeg"
+                                                            alt="" width="200">
                                                     </a>
                                                 </div>
                                                 <div class="rc-post-content">
                                                     <div class="rc-post-category">
-                                                        <a href="#">Design</a>
+                                                        <a href="biggest-trends-of-seo-in-2025.php">SEO</a>
                                                     </div>
                                                     <h3 class="rc-post-title">
-                                                        <a href="#">Behind the scenes of creative
-                                                            processes</a>
+                                                        <a href="biggest-trends-of-seo-in-2025.php">What Are the
+                                                            Biggest SEO Trends of 2025 & How to Leverage Them?</a>
                                                     </h3>
                                                     <div class="rc-post-meta">
-                                                        <span>July 15, 2023</span>
+                                                        <span>Oct 07, 2025</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="rc-post d-flex align-items-center">
+                                                <div class="rc-post-thumb">
+                                                    <a href="biggest-trends-of-seo-in-2025.php">
+                                                        <img src="assets/img/WhatsApp Image 2025-10-06 at 4.57.14 PM.jpeg"
+                                                            alt="" width="200">
+                                                    </a>
+                                                </div>
+                                                <div class="rc-post-content">
+                                                    <div class="rc-post-category">
+                                                        <a href="biggest-trends-of-seo-in-2025.php">SEO</a>
+                                                    </div>
+                                                    <h3 class="rc-post-title">
+                                                        <a href="biggest-trends-of-seo-in-2025.php">What Are the
+                                                            Biggest SEO Trends of 2025 & How to Leverage Them?</a>
+                                                    </h3>
+                                                    <div class="rc-post-meta">
+                                                        <span>Oct 07, 2025</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="rc-post d-flex align-items-center">
                                                 <div class="rc-post-thumb">
-                                                    <a href="#">
-                                                        <img src="assets/img/blog/blog-standard/blog-rp-3.jpg" alt="">
+                                                    <a href="biggest-trends-of-seo-in-2025.php">
+                                                        <img src="assets/img/WhatsApp Image 2025-10-14 at 10.30.02 AM.jpeg"
+                                                            alt="" width="200">
                                                     </a>
                                                 </div>
                                                 <div class="rc-post-content">
                                                     <div class="rc-post-category">
-                                                        <a href="#">Design</a>
+                                                        <a href="biggest-trends-of-seo-in-2025.php">GMB</a>
                                                     </div>
                                                     <h3 class="rc-post-title">
-                                                        <a href="#">Starting seo as your home
-                                                            business</a>
+                                                        <a href="biggest-trends-of-seo-in-2025.php">How to Create a
+                                                            Business Profile on Google: A Detailed Guide</a>
                                                     </h3>
                                                     <div class="rc-post-meta">
-                                                        <span>July 15, 2023</span>
+                                                        <span>Oct 14, 2025</span>
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            <div class="rc-post d-flex align-items-center">
+                                                <div class="rc-post-thumb">
+                                                    <a href="biggest-trends-of-seo-in-2025.php">
+                                                        <img src="assets/img/WhatsApp Image 2025-10-17 at 4.05.18 PM.jpeg"
+                                                            alt="" width="200">
+                                                    </a>
+                                                </div>
+                                                <div class="rc-post-content">
+                                                    <div class="rc-post-category">
+                                                        <a href="biggest-trends-of-seo-in-2025.php">Digital
+                                                            Marketing</a>
+                                                    </div>
+                                                    <h3 class="rc-post-title">
+                                                        <a href="biggest-trends-of-seo-in-2025.php">Advantages Of
+                                                            Digital Marketing For Small Businesses & Startups</a>
+                                                    </h3>
+                                                    <div class="rc-post-meta">
+                                                        <span>Nov 01, 2025</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="rc-post d-flex align-items-center">
+                                                <div class="rc-post-thumb">
+                                                    <a href="biggest-trends-of-seo-in-2025.php">
+                                                        <img src="assets/img/WhatsApp Image 2025-11-01 at 9.34.03 AM.jpeg"
+                                                            alt="" width="200">
+                                                    </a>
+                                                </div>
+                                                <div class="rc-post-content">
+                                                    <div class="rc-post-category">
+                                                        <a href="biggest-trends-of-seo-in-2025.php">Digital
+                                                            Marketing</a>
+                                                    </div>
+                                                    <h3 class="rc-post-title">
+                                                        <a href="biggest-trends-of-seo-in-2025.php">Top Top 10 Questions
+                                                            to Ask Before Hiring a Digital Marketing Agency</a>
+                                                    </h3>
+                                                    <div class="rc-post-meta">
+                                                        <span>Nov 01, 2025</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
                                         </div>
                                     </div>
 

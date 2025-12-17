@@ -4,6 +4,10 @@
     .tp-header-10-right {
         display: none !important;
     }
+
+    .tp-header-10-menu>nav>ul>li>a {
+        font-size: 15px !important;
+    }
 }
 
 /* Desktop screens (width above 1440px) */
@@ -11,8 +15,14 @@
     .tp-header-10-right {
         display: none !important;
     }
+
+    .tp-header-10-menu>nav>ul>li>a {
+        font-size: 15px !important;
+    }
 }
 </style>
+
+
 
 
 <header>
@@ -33,19 +43,33 @@
             </div>
             <div class="container container-1430">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-8">
                         <div class="tp-header-10-announcement-wrapper">
                             <div
-                                class="tp-header-10-announcement-content d-flex align-items-center justify-content-center">
+                                class="tp-header-10-announcement-content d-flex align-items-center justify-content-center pt-1">
                                 <p>Don’t Wait, Just Enquire – Instant Help at Your Fingertips!</p>
                                 <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                    class="d-none d-sm-block" style="    color: #011a6c;
-    font-size: 16px;
-    font-weight: 700;">Enquire Now <span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                    class="d-none d-sm-block"
+                                    style="    color: #000;font-size: 16px;font-weight: 700;">Enquire Now <span><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="10" height="10"
                                             viewBox="0 0 10 10" fill="none">
                                             <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentColor" stroke-width="2"
                                                 stroke-linecap="round" stroke-linejoin="round" />
                                         </svg></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="tp-header-10-announcement-wrapper">
+                            <div class=" d-flex align-items-center justify-content-center">
+                                <a href="tel:8879864151" style="background: aliceblue; padding: 6px;border-radius: 19px;    display: flex;    align-items: center;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                                    </svg>
+                                    &nbsp;<h6 style="    margin-bottom: 0px; padding-top: 4px;">+91 8879864151</h6>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -57,7 +81,7 @@
         <!-- header area start -->
         <div id="header-sticky" class="tp-header-10-area tp-header-blur sticky-white-bg tp-header-10-sticky">
             <div class="container container-1430">
-                <div class="tp-header-10-wrapper mt-30">
+                <div class="tp-header-10-wrapper mt-30" style="background-color:rgb(255 255 255);">
                     <div class="row align-items-center">
                         <div class="col-xl-2 col-lg-4 col-md-6 col-5">
                             <div class="tp-header-10-logo">
@@ -65,9 +89,8 @@
                                         alt="fox logo"></a>
                             </div>
                         </div>
-                        <div class="col-xl-10 col-lg-8 col-md-6 col-7">
-                            <div
-                                class="tp-header-10-box d-flex align-items-center justify-content-end justify-content-xl-between">
+                        <div class="col-xl-8 col-lg-8 col-md-6 col-7">
+                            <div class="tp-header-10-box d-flex align-items-center justify-content-end ">
                                 <div
                                     class="tp-header-menu tp-header-10-menu tp-header-dropdown dropdown-white-bg d-none d-xl-block">
                                     <nav class="tp-mobile-menu-active">
@@ -81,25 +104,115 @@
 
                                             </li>
                                             <li class="has-dropdown">
-                                                <a href="#">Services</a>
-                                                <ul class="tp-submenu submenu">
-                                                    <li><a href="social-media-service-in-pune.php">Social Media
-                                                            Marketing</a></li>
-                                                    <li><a href="seo-services-in-pune.php">Search Engine
-                                                            Optimization</a></li>
-                                                    <li><a href="google-ads-services.php">Google Adwards</a></li>
-                                                    <li><a href="graphic-and-brochure-design-service.php">Graphic and
-                                                            Brochure Design</a></li>
+                                                <a href="#">Our Services</a>
+                                                <div class="tp-megamenu-wrapper mega-menu megamenu-white-bg">
+                                                    <div class="row gx-0">
+                                                        <div class="col-xl-3">
+                                                            <div class="tp-megamenu-list">
+                                                                <h4 class="tp-megamenu-title">Digital Marketing</h4>
+                                                                <ul>
+                                                                    <li><a href="social-media-service-in-pune.php">Social
+                                                                            Media
+                                                                            Marketing</a></li>
+                                                                    <li><a href="seo-services-in-pune.php">Search Engine
+                                                                            Optimization</a></li>
+                                                                    <li><a href="google-ads-services.php">Google
+                                                                            Adwards</a></li>
+                                                                    <!-- <li><a
+                                                                            href="graphic-and-brochure-design-service.php">Graphic
+                                                                            and
+                                                                            Brochure Design</a></li>
 
-                                                    <li><a href="website-design-and-developement-service.php">Website design & development</a></li>
-                                                    <li><a href="data-extractor-software.php">Data Extractor Software</a></li>
+                                                                    <li><a
+                                                                            href="website-design-and-developement-service.php">Website
+                                                                            design & development</a></li> -->
 
-                                                </ul>
+
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-2">
+                                                            <div class="tp-megamenu-list">
+                                                                <h4 class="tp-megamenu-title">Bulk Marketing Service
+                                                                </h4>
+                                                                <ul>
+                                                                    <li><a href="#">Bulk SMS</a></li>
+                                                                    <li><a href="#">RCS SMS</a></li>
+                                                                    <li><a href="#">Meta WhatsApp</a></li>
+                                                                    <li><a href="#">Voice Call</a></li>
+
+
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-3">
+                                                            <div class="tp-megamenu-list">
+                                                                <h4 class="tp-megamenu-title">Software</h4>
+                                                                <ul>
+                                                                    <li><a
+                                                                            href="website-design-and-developement-service.php">Website
+                                                                            Design</a></li>
+                                                                    <li><a
+                                                                            href="website-design-and-developement-service.php">Ecommerce
+                                                                            Design</a>
+                                                                    </li>
+                                                                    <li><a href="#">Custom
+                                                                            Software Development</a>
+                                                                    </li>
+                                                                    <li><a href="data-extractor-software.php">Data
+                                                                            Extractor software</a>
+                                                                    </li>
+                                                                    <li><a href="#">Whats
+                                                                            App Marketing Software</a>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-2">
+                                                            <div class="tp-megamenu-list">
+                                                                <h4 class="tp-megamenu-title">Designs</h4>
+                                                                <ul>
+                                                                    <li><a
+                                                                            href="graphic-and-brochure-design-service.php">Graphics
+                                                                            Design</a></li>
+                                                                    <li><a
+                                                                            href="graphic-and-brochure-design-service.php">Brochure
+                                                                            Design</a></li>
+                                                                    <li><a
+                                                                            href="graphic-and-brochure-design-service.php">Visiting
+                                                                            Card Design</a></li>
+                                                                    <li><a
+                                                                            href="graphic-and-brochure-design-service.php">Logo
+                                                                            Design</a></li>
+                                                                    <li><a
+                                                                            href="graphic-and-brochure-design-service.php">Video
+                                                                            Editing</a></li>
+
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-2">
+                                                            <div class="tp-megamenu-list">
+                                                                <h4 class="tp-megamenu-title">Influencer Marketing</h4>
+                                                                <ul>
+                                                                    <li><a href="influncer-marketing-in-pune.php">Influencer
+                                                                            Marketing</a>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
                                             </li>
-                                            <li class="#">
+
+
+                                            <!-- <li class="#">
                                                 <a href="influncer-marketing-in-pune.php">Influencer Marketing</a>
 
-                                            </li>
+                                            </li> -->
                                             <li class="">
                                                 <a href="blog.php">Blogs</a>
 
@@ -134,6 +247,11 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6 col-5">
+                            <button class="btn"
+                                style="background: #ff5722;padding: 11px;border-radius: 22px;color:#fff;    font-weight: 600;"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -147,7 +265,7 @@
     <div class="tp-offcanvas-wrapper @@class">
         <div class="tp-offcanvas-top d-flex align-items-center justify-content-between">
             <div class="tp-offcanvas-logo">
-                <a href="index.html">
+                <a href="index.php">
                     <img class="logo-1" data-width="120" src="assets/img/fox Logo.png" alt="">
                     <img class="logo-2" data-width="120" src="assets/img/fox Logo.png" alt="">
                 </a>

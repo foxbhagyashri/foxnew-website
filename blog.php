@@ -101,40 +101,46 @@
                                                 <h4 class="tp-contact-us-title mb-20"
                                                     style="color:#00009c;font-size:26px">Enquire Now
                                                 </h4>
-                                                <form action="#" method="POST">
+                                                <form action="send.php" method="POST">
                                                     <div class="row">
                                                         <div class="col-lg-6">
                                                             <div class="tp-contact-form-input mb-20">
                                                                 <label style="color:#000">Full name*</label>
                                                                 <input name="name" type="text" required
-                                                                    style=" background: #fff;    height: 38px;">
+                                                                    style=" background: #fff;    height: 38px;    color: #000000;">
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
                                                             <div class="tp-contact-form-input mb-20">
                                                                 <label style="color:#000">Email address*</label>
                                                                 <input name="email" type="email" required
-                                                                    style=" background: #fff;    height: 38px;">
+                                                                    style=" background: #fff;    height: 38px;    color: #000000;">
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
                                                             <div class="tp-contact-form-input mb-20">
                                                                 <label style="color:#000">Business Name</label>
-                                                                <input name="subject" type="text" required
-                                                                    style=" background: #fff;    height: 38px;">
+                                                                <input name="business_name" type="text" required
+                                                                    style=" background: #fff;    height: 38px;    color: #000000;">
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
                                                             <div class="tp-contact-form-input mb-20">
                                                                 <label style="color:#000">Contact Number</label>
-                                                                <input name="subject" type="text" required
-                                                                    style=" background: #fff;    height: 38px;">
+
+                                                                <input type="tel" name="phone"
+                                                                    oninput="this.value = this.value.replace(/[^0-9]/g, '');"
+                                                                    class="form-control" maxlength="10"
+                                                                    pattern="[0-9]{10}" required
+                                                                    style=" background: #fff;    height: 38px;    color: #000000;">
+
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-12">
                                                             <div class="tp-contact-form-input mb-20">
                                                                 <label style="color:#000">Type Of Service</label>
-                                                                <select name="" class="form-control" required>
+                                                                <select name="service_name" class="form-control"
+                                                                    required>
                                                                     <option value="Social Media Marketing">Social Media
                                                                         Marketing</option>
                                                                     <option value="Search Engine Optimization">Search
@@ -151,6 +157,11 @@
                                                                 </select>
                                                             </div>
                                                         </div>
+                                                        <div class="g-recaptcha"
+                                                            data-sitekey="6LfendMrAAAAAPjqDt8Kah3GsfNxpXPTpY0rh1aY">
+                                                        </div>
+                                                        <br>
+
                                                         <div class="col-lg-12">
 
                                                             <div class="tp-contact-form-btn">
@@ -164,6 +175,10 @@
                                                         </div>
                                                     </div>
                                                 </form>
+                                                <!-- Load Google reCAPTCHA script -->
+                                                <script src="https://www.google.com/recaptcha/api.js" async defer>
+                                                </script>
+
                                             </div>
                                         </div>
 
@@ -259,6 +274,159 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="row" style="margin-top: 40px;">
+                                            <div class="col-lg-3 col-md-6">
+                                                <div class="tp-blog-list-item-content">
+                                                    <div class="tp-blog-list-item-tags">
+                                                        <p>Oct 07, 2025</p>
+                                                        <!-- <span class="tp-blog-list-item-tags-name">Damien Cabral</span> -->
+                                                        <span class="tp-blog-list-item-meta">SEO</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5 col-md-6">
+                                                <div class="tp-blog-list-item-title-box">
+                                                    <h4 class="tp-blog-list-item-title">
+                                                        <a class="tp-line-white"
+                                                            href="biggest-trends-of-seo-in-2025.php">What Are the
+                                                            Biggest SEO Trends of 2025 & How to Leverage Them?
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="tp-blog-list-item-thumb text-lg-end">
+                                                    <a href="biggest-trends-of-seo-in-2025.php"><img
+                                                            src="assets/img/WhatsApp Image 2025-10-06 at 4.57.14 PM.jpeg"
+                                                            alt="Biggest SEO Trends of 2025"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" style="margin-top: 40px;">
+                                            <div class="col-lg-3 col-md-6">
+                                                <div class="tp-blog-list-item-content">
+                                                    <div class="tp-blog-list-item-tags">
+                                                        <p>Oct 14, 2025</p>
+                                                        <!-- <span class="tp-blog-list-item-tags-name">Damien Cabral</span> -->
+                                                        <span class="tp-blog-list-item-meta">GMB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5 col-md-6">
+                                                <div class="tp-blog-list-item-title-box">
+                                                    <h4 class="tp-blog-list-item-title">
+                                                        <a class="tp-line-white"
+                                                            href="How-to-Create-Business-Profile-on-Google.php">How to
+                                                            Create a Business Profile on Google: A Detailed Guide
+
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="tp-blog-list-item-thumb text-lg-end">
+                                                    <a href="How-to-Create-Business-Profile-on-Google.php"><img
+                                                            src="assets/img/WhatsApp Image 2025-10-14 at 10.30.02 AM.jpeg"
+                                                            alt="How to Create a Business Profile on Google: A Detailed Guide"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row" style="margin-top: 40px;">
+                                            <div class="col-lg-3 col-md-6">
+                                                <div class="tp-blog-list-item-content">
+                                                    <div class="tp-blog-list-item-tags">
+                                                        <p>Nov 01, 2025</p>
+                                                        <!-- <span class="tp-blog-list-item-tags-name">Damien Cabral</span> -->
+                                                        <span class="tp-blog-list-item-meta">Digital Marketing</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5 col-md-6">
+                                                <div class="tp-blog-list-item-title-box">
+                                                    <h4 class="tp-blog-list-item-title">
+                                                        <a class="tp-line-white"
+                                                            href="Advantages-Of-Digital-Marketing-For-Small-Businesses.php">Advantages
+                                                            Of Digital Marketing For Small Businesses & Startups
+
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="tp-blog-list-item-thumb text-lg-end">
+                                                    <a href="Advantages-Of-Digital-Marketing-For-Small-Businesses.php"><img
+                                                            src="assets/img/WhatsApp Image 2025-10-17 at 4.05.18 PM.jpeg"
+                                                            alt="How to Create a Business Profile on Google: A Detailed Guide"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row" style="margin-top: 40px;">
+                                            <div class="col-lg-3 col-md-6">
+                                                <div class="tp-blog-list-item-content">
+                                                    <div class="tp-blog-list-item-tags">
+                                                        <p>Nov 01, 2025</p>
+                                                        <!-- <span class="tp-blog-list-item-tags-name">Damien Cabral</span> -->
+                                                        <span class="tp-blog-list-item-meta">Digital Marketing</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5 col-md-6">
+                                                <div class="tp-blog-list-item-title-box">
+                                                    <h4 class="tp-blog-list-item-title">
+                                                        <a class="tp-line-white"
+                                                            href="top-10-questions-to-ask-before-hiring-digital-marketing-agency.php">
+                                                            Top 10 Questions to Ask Before Hiring a Digital Marketing
+                                                            Agency
+
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="tp-blog-list-item-thumb text-lg-end">
+                                                    <a
+                                                        href="top-10-questions-to-ask-before-hiring-digital-marketing-agency.php"><img
+                                                            src="assets/img/WhatsApp Image 2025-11-01 at 9.34.03 AM.jpeg"
+                                                            alt="How to Create a Business Profile on Google: A Detailed Guide"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" style="margin-top: 40px;">
+                                            <div class="col-lg-3 col-md-6">
+                                                <div class="tp-blog-list-item-content">
+                                                    <div class="tp-blog-list-item-tags">
+                                                        <p>Nov 19, 2025</p>
+                                                        <!-- <span class="tp-blog-list-item-tags-name">Damien Cabral</span> -->
+                                                        <span class="tp-blog-list-item-meta">PPC </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5 col-md-6">
+                                                <div class="tp-blog-list-item-title-box">
+                                                    <h4 class="tp-blog-list-item-title">
+                                                        <a class="tp-line-white"
+                                                            href="What-is-PPC-In-Digital-Marketing.php">What
+                                                            is PPC In Digital Marketing- A Detailed Guide
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="tp-blog-list-item-thumb text-lg-end">
+                                                    <a href="What-is-PPC-In-Digital-Marketing.php"><img
+                                                            src="assets/img/ppc.jpeg"
+                                                            alt="How to Create a Business Profile on Google: A Detailed Guide"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
                                     </div>
 
 

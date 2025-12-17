@@ -171,6 +171,20 @@
                                                                 </select>
                                                             </div>
                                                         </div>
+                                                        
+                                                          <style>
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  accent-color: #007bff; /* Optional: change checkbox color */
+}
+</style>
+
+                                                         <div class="col-lg-12">
+                                                        <input type="checkbox" id="vehicle1" name="vehicle1" value="RCS" required>
+<label for="vehicle1"> I authorize company representatives to Call, SMS, RCS, Email or WhatsApp me about its products and offers. This consent overrides any registration for DNC/NDNC.</label><br>
+</div>
+                                                        
                                                         <div class="col-lg-12">
 
                                                             <div class="tp-contact-form-btn">

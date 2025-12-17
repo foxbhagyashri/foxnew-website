@@ -80,6 +80,17 @@
         border: none;
     }
     </style>
+
+    <style>
+    @media only screen and (min-width: 768px) and (max-width: 991px),
+    (max-width: 767px) {
+
+        .tp-career-title {
+            font-size: 51px !important;
+        }
+    }
+    </style>
+
     <div class="container">
         <div class="row">
             <div class="col-lg-8 m-auto">
@@ -158,6 +169,25 @@
                                                                 </select>
                                                             </div>
                                                         </div>
+                                                        
+                                                          <style>
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  accent-color: #007bff; /* Optional: change checkbox color */
+}
+</style>
+
+                                                         <div class="col-lg-12">
+                                                        <input type="checkbox" id="vehicle1" name="vehicle1" value="RCS" required>
+<label for="vehicle1"> I authorize company representatives to Call, SMS, RCS, Email or WhatsApp me about its products and offers. This consent overrides any registration for DNC/NDNC.</label><br>
+</div>
+                                                        
+                                                        <div class="g-recaptcha"
+                                                            data-sitekey="6LfendMrAAAAAPjqDt8Kah3GsfNxpXPTpY0rh1aY">
+                                                        </div>
+                                                        <br>
+
                                                         <div class="col-lg-12">
 
                                                             <div class="tp-contact-form-btn">
@@ -171,6 +201,10 @@
                                                         </div>
                                                     </div>
                                                 </form>
+                                                <!-- Load Google reCAPTCHA script -->
+                                                <script src="https://www.google.com/recaptcha/api.js" async defer>
+                                                </script>
+
                                             </div>
                                         </div>
 
@@ -209,12 +243,13 @@
                             </svg></span>
                     </div>
                     <div class="container container-1230">
-                        <div class="ar-about-us-4-hero-ptb">
+                        <div class="ar-about-us-4-hero-ptb" style="padding-bottom: 70px;">
                             <div class="row justify-content-center">
                                 <div class="col-xl-12">
                                     <div class="ar-hero-title-box tp_fade_anim" data-delay=".3">
                                         <span class="tp-application-subtitle mb-25">Full time</span>
-                                        <!-- <h3 class="tp-career-title pb-30">UI/UX Designer</h3> -->
+                                        <h3 class="tp-career-title pb-30" style="font-size: 67px;">Unlock Opportunities,
+                                            Apply Today.</h3>
                                     </div>
                                 </div>
                             </div>
@@ -227,20 +262,23 @@
                 <div class="tp-application-aera pb-100">
                     <div class="container justify-content-center">
                         <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="tp-contact-form-wrap tp-application-form-wrap">
+                            <div class="col-lg-7">
+                                <div class="tp-contact-form-wrap tp-application-form-wrap" style=" background: #f1f1f1;padding: 30px;
+    border: 2px solid #001f86;border-radius:10px">
                                     <form action="careerform.php" method="POST" enctype="multipart/form-data">
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <div class="tp-contact-form-input mb-20">
                                                     <label>Your Name*</label>
-                                                    <input name="name" type="text" required>
+                                                    <input name="name" type="text" required
+                                                        style="height: 43px;background:#fff">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="tp-contact-form-input mb-20">
                                                     <label>Your Email address*</label>
-                                                    <input name="email" type="email" required>
+                                                    <input name="email" type="email" required
+                                                        style="height: 43px;background:#fff">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
@@ -249,14 +287,14 @@
                                                     <input type="tel" name="phone"
                                                         oninput="this.value = this.value.replace(/[^0-9]/g, '');"
                                                         class="form-control" maxlength="10" pattern="[0-9]{10}" required
-                                                        style=" background: #fff;    height: 38px;    color: #000000;">
+                                                        style=" height: 43px;    color: #000000;background: #fff;border-color: #F8F8FB;">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="tp-contact-form-input mb-20">
                                                     <label>Select Role*</label>
                                                     <select required name="role" class="form-control"
-                                                        style="    border-radius: 8px;background: #F8F8FB;border-color: #F8F8FB;height: 60px;width: 100%;">
+                                                        style="    border-radius: 8px;background: #ffff;border-color: #F8F8FB;height: 43px;width: 100%;">
                                                         <option value="Social Media Executive">Social Media Executive
                                                         </option>
                                                         <option value="Sales Executive">Sales Executive
@@ -273,7 +311,8 @@
                                                     <label>Tell us About a project that you worked on and felt proud of
                                                         IT.
                                                     </label>
-                                                    <textarea name="project"></textarea>
+                                                    <textarea name="project"
+                                                        style="height:70px;background:#fff"></textarea>
                                                 </div>
                                             </div>
 
@@ -281,15 +320,24 @@
                                                 <div class="tp-contact-form-input mb-20">
                                                     <label>your current salary & what are your salary expectations?*
                                                     </label>
-                                                    <textarea name="salary"></textarea>
+                                                    <textarea name="salary"
+                                                        style="height:70px;background:#fff"></textarea>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-12">
+                                                <div class="tp-application-form-btn ">
+                                                    <div class="tp-application-upload mb-15">
+                                                        <span>Upload your CV *</span>
+                                                        <input type="file" name="resume" accept=".pdf" required
+                                                            style="background:#fff" class="form-control" />
+                                                    </div><br>
+
                                                 </div>
                                             </div>
                                             <div class="col-lg-12">
                                                 <div class="tp-application-form-btn d-flex justify-content-between">
-                                                    <div class="tp-application-upload mb-15">
-                                                        <span>Upload your CV *</span>
-                                                        <input type="file" name="resume" accept=".pdf" required />
-                                                    </div>
+
                                                     <div class="tp-application-btn mb-15 mt-10">
                                                         <button type="submit"
                                                             class="tp-btn-yellow-green green-solid btn-60">

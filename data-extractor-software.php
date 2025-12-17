@@ -96,6 +96,22 @@
         border: none;
     }
     </style>
+
+    <style>
+    @media only screen and (min-width: 768px) and (max-width: 991px),
+    (max-width: 767px) {
+        .pp-service-details-about-wrap {
+
+            padding-left: 0px !important;
+        }
+
+        .pp-service-details-title {
+            font-size: 66px !important;
+        }
+    }
+    </style>
+
+
     <div class="container">
         <div class="row">
             <div class="col-lg-8 m-auto">
@@ -174,6 +190,26 @@
                                                                 </select>
                                                             </div>
                                                         </div>
+                                                        
+                                                          <style>
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  accent-color: #007bff; /* Optional: change checkbox color */
+}
+</style>
+
+                                                         <div class="col-lg-12">
+                                                        <input type="checkbox" id="vehicle1" name="vehicle1" value="RCS" required>
+<label for="vehicle1"> I authorize company representatives to Call, SMS, RCS, Email or WhatsApp me about its products and offers. This consent overrides any registration for DNC/NDNC.</label><br>
+</div>
+                                                        
+                                                        
+                                                        <div class="g-recaptcha"
+                                                            data-sitekey="6LfendMrAAAAAPjqDt8Kah3GsfNxpXPTpY0rh1aY">
+                                                        </div>
+                                                        <br>
+
                                                         <div class="col-lg-12">
 
                                                             <div class="tp-contact-form-btn">
@@ -187,6 +223,10 @@
                                                         </div>
                                                     </div>
                                                 </form>
+                                                <!-- Load Google reCAPTCHA script -->
+                                                <script src="https://www.google.com/recaptcha/api.js" async defer>
+                                                </script>
+
                                             </div>
                                         </div>
 

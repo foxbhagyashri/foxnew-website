@@ -165,6 +165,20 @@
                                                                 </select>
                                                             </div>
                                                         </div>
+                                                        
+                                                          <style>
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  accent-color: #007bff; /* Optional: change checkbox color */
+}
+</style>
+
+                                                         <div class="col-lg-12">
+                                                        <input type="checkbox" id="vehicle1" name="vehicle1" value="RCS" required>
+<label for="vehicle1"> I authorize company representatives to Call, SMS, RCS, Email or WhatsApp me about its products and offers. This consent overrides any registration for DNC/NDNC.</label><br>
+</div>
+                                                        
                                                         <div class="col-lg-12">
 
                                                             <div class="tp-contact-form-btn">
@@ -288,19 +302,20 @@
                                                 <div class="col-lg-6">
                                                     <div class="tp-contact-form-input mb-20">
                                                         <label>Full name*</label>
-                                                        <input name="name" type="text" required>
+                                                        <input name="name" type="text" required style="height: 43px;">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="tp-contact-form-input mb-20">
                                                         <label>Email address*</label>
-                                                        <input name="email" type="email" required>
+                                                        <input name="email" type="email" required style="height: 43px;">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="tp-contact-form-input mb-20">
                                                         <label>Subject</label>
-                                                        <input name="subject" type="text" required>
+                                                        <input name="subject" type="text" required
+                                                            style="height: 43px;">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
@@ -309,7 +324,7 @@
                                                         <input type="tel" name="phone"
                                                             oninput="this.value = this.value.replace(/[^0-9]/g, '');"
                                                             class="form-control" maxlength="10" pattern="[0-9]{10}"
-                                                            required>
+                                                            required style="height: 43px;">
 
                                                     </div>
                                                 </div>
@@ -317,12 +332,32 @@
                                                     <div class="tp-contact-form-input mb-20">
                                                         <label>How Can We Help You*
                                                         </label>
-                                                        <textarea name="message" required></textarea>
+                                                        <textarea name="message" style="height: 73px;"
+                                                            required></textarea>
                                                     </div>
-                                                    <div class="tp-contact-form-btn">
+                                                    
+                                                      <style>
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  accent-color: #007bff; /* Optional: change checkbox color */
+}
+</style>
+
+                                                         <div class="col-lg-12">
+                                                        <input type="checkbox" id="vehicle1" name="vehicle1" value="RCS" required>
+<label for="vehicle1"> I authorize company representatives to Call, SMS, RCS, Email or WhatsApp me about its products and offers. This consent overrides any registration for DNC/NDNC.</label><br>
+</div>
+                                                    
+                                                    <div class="g-recaptcha"
+                                                        data-sitekey="6LfendMrAAAAAPjqDt8Kah3GsfNxpXPTpY0rh1aY"></div>
+                                                    <br>
+
+
+                                                    <div class="tp-contact-form-btn mt-3">
                                                         <button class="w-100" type="submit"><span>
-                                                                <span class="text-1">Send Message</span>
-                                                                <span class="text-2">Send Message</span>
+                                                                <span class="text-1">Submit</span>
+                                                                <span class="text-2">Submit</span>
                                                             </span>
                                                         </button>
                                                         <p class="ajax-response mt-5"></p>
@@ -330,6 +365,9 @@
                                                 </div>
                                             </div>
                                         </form>
+                                        <!-- Load Google reCAPTCHA script -->
+                                        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
                                     </div>
                                 </div>
                                 <div class="col-lg-5">
@@ -341,8 +379,8 @@
                                         </div>
                                         <iframe
                                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.3460525487435!2d73.78222397372407!3d18.64846096525807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9cfbe86d6f1%3A0xbceef5272c9be55c!2sINOX%20Jai%20Ganesh%20Vision%20Mall!5e0!3m2!1sen!2sin!4v1757932665788!5m2!1sen!2sin"
-                                            width="100%" height="450" style="border:0;" allowfullscreen=""
-                                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                            width="100%" height="50" style="border:0;" allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -382,8 +420,7 @@
                                     <div class="tp-contact-us-bottom">
                                         <div class="tp-contact-us-info-details">
                                             <h4 class="tp-contact-us-info-title">Head Office</h4>
-                                            <a href="#">Office No. BR1- 410/411/412/413, 4th floor, B wing, Jai Ganesh
-                                                Vision, Akurdi, Pune Maharashtra 411035</a>
+                                            <a href="#">Office No. BR-1-412/413, 4th Floor, B-Wing, Jai Ganesh Vision, Akurdi Pune-411035</a>
                                             <!-- <a href="tel:(+91)76001726">(+91) 76001726</a> -->
                                         </div>
 

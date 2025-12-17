@@ -3,10 +3,27 @@
 
 <head>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K2BCMJYZHB"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-K2BCMJYZHB');
+    </script>
+
+
+    <meta name="google-site-verification" content="R_3vYjDqPLgRe0gWyiI3O7lHiVEw4B2jQQnqlR1KfHU" />
+
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Fox Aircomm Pvt Ltd</title>
-    <meta name="description" content="">
+    <title>Fox AirComm – Best Digital Marketing Agency in Pune</title>
+    <meta name="description"
+        content="Fox AirComm- best digital marketing agency in Pune, trusted for SEO, PPC & social media services that drive real leads, sales, and business growth.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Place favicon.ico in the root directory -->
@@ -87,6 +104,17 @@
         border: none;
     }
     </style>
+    <style>
+    @media only screen and (min-width: 768px) and (max-width: 991px),
+    (max-width: 767px) {
+
+        .modal .modal-dialog {
+            max-width: 100% !important;
+            width: 100% !important;
+        }
+    }
+    </style>
+
     <div class="container">
         <div class="row">
             <div class="col-lg-8 m-auto">
@@ -165,6 +193,23 @@
                                                                 </select>
                                                             </div>
                                                         </div>
+                                                      
+                                                        <style>
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  accent-color: #007bff; /* Optional: change checkbox color */
+}
+</style>
+
+                                                         <div class="col-lg-12">
+                                                        <input type="checkbox" id="vehicle1" name="vehicle1" value="RCS" required>
+<label for="vehicle1"> I authorize company representatives to Call, SMS, RCS, Email or WhatsApp me about its products and offers. This consent overrides any registration for DNC/NDNC.</label><br>
+</div>
+  <div class="g-recaptcha"
+                                                            data-sitekey="6LfendMrAAAAAPjqDt8Kah3GsfNxpXPTpY0rh1aY">
+                                                        </div>
+                                                        <br>
                                                         <div class="col-lg-12">
 
                                                             <div class="tp-contact-form-btn">
@@ -178,6 +223,10 @@
                                                         </div>
                                                     </div>
                                                 </form>
+                                                <!-- Load Google reCAPTCHA script -->
+                                                <script src="https://www.google.com/recaptcha/api.js" async defer>
+                                                </script>
+
                                             </div>
                                         </div>
 
@@ -237,7 +286,8 @@
                                         </div>
                                         <div class="app-hero-btn-text tp_text_anim">
                                             <p style="color:#020202">
-                                                Fox AirComm Pvt Ltd A Digital marketing <br>agency to grow your 10X
+                                                Fox AirComm Pvt Ltd A Digital <br> marketing agency to grow your <br>
+                                                10X
                                                 business
                                             </p>
                                         </div>
@@ -254,12 +304,12 @@
                             </div>
                         </div>
                         <div class="app-hero-bottom-thumb-main z-index-1 tp_fade_anim" data-delay=".5">
-                            <img src="assets/img/hero-hand-shape.png" alt="">
+                            <img src="assets/img/Fox Website 01.png" alt="">
                             <img class="shape-1" src="assets/img/home-10/hero/hero-shape.png" alt="">
                             <img class="shape-2" data-speed="1.1" src="assets/img/home-10/hero/hero-user.png" alt="">
                             <!-- <img class="shape-3" data-speed="1.1" src="assets/img/home-10/hero/hero-one-app.png" alt=""> -->
                             <!-- <img class="shape-4" src="assets/img/home-10/hero/hero-tools.png" alt=""> -->
-                            <img class="shape-5" data-speed=".8" src="assets/img/home-10/hero/hero-secure.png" alt="">
+                            <!-- <img class="shape-5" data-speed=".8" src="assets/img/home-10/hero/hero-secure.png" alt=""> -->
                         </div>
                         <div class="app-hero-bottom-wrapper include-bg p-relative"
                             data-background="assets/img/home-10/hero/app-hero-bottom-bg.png">
@@ -334,72 +384,81 @@
                                 <div class="swiper-container app-brand-active fix">
                                     <div class="swiper-wrapper slider-transtion">
                                         <div class="swiper-slide">
-                                            <div class="app-brand-item">
+                                            <div class="app-brand-item"
+                                                style="background-color:#fff;padding:10px 10px 10px 15px;margin-right:40px">
                                                 <img src="assets/img/logo-5.png" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="app-brand-item">
+                                            <div class="app-brand-item"
+                                                style="background-color:#fff;padding:10px;margin-right:40px">
                                                 <img src="assets/img/magic-pet.png" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="app-brand-item">
+                                            <div class="app-brand-item"
+                                                style="background-color:#fff;padding:10px;margin-right:40px">
                                                 <img src="assets/img/sh_pitkar.png" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="app-brand-item">
+                                            <div class="app-brand-item"
+                                                style="background-color:#fff;padding:10px;margin-right:40px">
                                                 <img src="assets/img/vinanti_auto.png" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="app-brand-item">
+                                            <div class="app-brand-item"
+                                                style="background-color:#fff;padding:10px;margin-right:40px">
                                                 <img src="assets/img/sz-interior.png" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="app-brand-item">
+                                            <div class="app-brand-item"
+                                                style="background-color:#fff;padding:10px;margin-right:40px">
                                                 <img src="assets/img/sharad-pwarcoleg.png" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="app-brand-item">
+                                            <div class="app-brand-item"
+                                                style="background-color:#fff;padding:10px;margin-right:40px">
                                                 <img src="assets/img/space_india.png" alt="">
                                             </div>
                                         </div>
+
                                         <div class="swiper-slide">
-                                            <div class="app-brand-item">
-                                                <img src="assets/img/sharad-pwarcoleg (1).png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="app-brand-item">
+                                            <div class="app-brand-item"
+                                                style="background-color:#fff;padding:10px;margin-right:40px">
                                                 <img src="assets/img/nyanvilas-coleg.png" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="app-brand-item">
+                                            <div class="app-brand-item"
+                                                style="background-color:#fff;padding:10px;margin-right:40px">
                                                 <img src="assets/img/gajanan-maharaj.png" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="app-brand-item">
+                                            <div class="app-brand-item"
+                                                style="background-color:#fff;padding:10px;margin-right:40px">
                                                 <img src="assets/img/gk.png" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="app-brand-item">
+                                            <div class="app-brand-item"
+                                                style="background-color:#fff;padding:10px;margin-right:40px">
                                                 <img src="assets/img/ambince.png" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="app-brand-item">
+                                            <div class="app-brand-item"
+                                                style="background-color:#fff;padding:10px;margin-right:40px">
                                                 <img src="assets/img/ashtvinayk.png" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="app-brand-item">
+                                            <div class="app-brand-item"
+                                                style="background-color:#fff;padding:10px;margin-right:40px">
                                                 <img src="assets/img/logo-222 (1).png" alt="">
                                             </div>
                                         </div>
@@ -576,7 +635,7 @@
                                     </div>
                                 </div>
                                 <div class="app-feature-2-thumb z-index-1">
-                                    <img data-speed="1.1" src="assets/img/resized_image.png" alt="">
+                                    <img data-speed="1.1" src="assets/img/Fox Website 02.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -869,7 +928,8 @@
                                 <div class="col-lg-4">
                                     <div class="app-benefits-item z-index-1 mb-25">
                                         <div class="app-benefits-item-thumb">
-                                            <img src="assets/img/Digital Globe with Explore Our Services Text.jpeg" alt="">
+                                            <img src="assets/img/Digital Globe with Explore Our Services Text.jpeg"
+                                                alt="">
                                         </div>
                                         <div class="app-benefits-item-content text-center z-index-1">
                                             <h4 class="app-benefits-item-title">Explore your <br>
@@ -878,7 +938,8 @@
                                     </div>
                                     <div class="app-benefits-item z-index-1 mb-25">
                                         <div class="app-benefits-item-thumb">
-                                            <img src="assets/img/Digital_Marketing_Landscape_Black_Background__1_-removebg-preview.png" alt="">
+                                            <img src="assets/img/Digital_Marketing_Landscape_Black_Background__1_-removebg-preview.png"
+                                                alt="">
                                         </div>
                                         <!-- <div class="app-benefits-item-content text-center z-index-1">
                                             <h4 class="app-benefits-item-title">Create the perfect <br>
@@ -916,7 +977,7 @@
                                         <h3 class="tp-section-title-phudu mb-20 tp_fade_anim" data-delay=".5">Trusted by
                                             500+ <br> customers</h3>
                                         <div class="app-testimonial-big-text">
-                                            <h3>4.86</h3>
+                                            <h3>4.8</h3>
                                         </div>
                                     </div>
                                     <div class="app-testimonial-review-width tp_fade_anim" data-delay=".6"
@@ -942,7 +1003,7 @@
                                                 </span>
                                             </div>
                                             <div class="app-testimonial-review-content">
-                                                <span><i>4.6</i> <svg xmlns="http://www.w3.org/2000/svg" width="13"
+                                                <span><i>4.8</i> <svg xmlns="http://www.w3.org/2000/svg" width="13"
                                                         height="13" viewBox="0 0 13 13" fill="none">
                                                         <path
                                                             d="M6.12215 1.09728C6.24667 0.739057 6.75328 0.739057 6.8778 1.09728L8.17194 4.82036C8.22687 4.97839 8.37435 5.08554 8.54162 5.08895L12.4824 5.16925C12.8616 5.17698 13.0181 5.6588 12.7159 5.88792L9.57495 8.26922C9.44163 8.37029 9.3853 8.54366 9.43375 8.70379L10.5751 12.4765C10.685 12.8395 10.2751 13.1373 9.9638 12.9207L6.72845 10.6693C6.59112 10.5738 6.40883 10.5738 6.2715 10.6693L3.03615 12.9207C2.72485 13.1373 2.31499 12.8395 2.42481 12.4765L3.5662 8.70379C3.61465 8.54366 3.55832 8.37029 3.425 8.26922L0.284053 5.88792C-0.0181605 5.6588 0.138392 5.17698 0.517561 5.16925L4.45833 5.08895C4.6256 5.08554 4.77308 4.97839 4.82801 4.82036L6.12215 1.09728Z"
@@ -1414,6 +1475,65 @@
                     </div>
                 </div>
                 <!-- cta area end -->
+
+                <div class="tp-contact-us-info-area pb-120 pt-100" style="background:#ffff">
+                    <div class="container container-1230">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                                <div class="tp-contact-us-content text-center" data-speed="1.2"
+                                    style="background: #F6F6F9;">
+                                    <div class="tp-contact-us-thumb d-flex justify-content-center">
+                                        <img src="assets/img/41847427_pune_outline_bold_mini_color.jpg" alt="">
+                                    </div>
+                                    <div class="tp-contact-us-bottom">
+                                        <div class="tp-contact-us-info-details">
+                                            <h4 class="tp-contact-us-info-title" style="color:#000">Head Office</h4>
+                                            <a href="#" style="color: rgba(0, 0, 0, 0.7);">Office No. BR-1-412/413, 4th Floor, B-Wing, Jai Ganesh Vision, Akurdi Pune-411035</a>
+                                            <!-- <a href="tel:(+91)76001726">(+91) 76001726</a> -->
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                                <div class="tp-contact-us-content text-center mt-60" data-speed=".9"
+                                    style="background: #F6F6F9;">
+                                    <div class="tp-contact-us-thumb d-flex justify-content-center">
+                                        <img src="assets/img/28929607_7380145.jpg" alt="">
+                                    </div>
+                                    <div class="tp-contact-us-bottom">
+                                        <div class="tp-contact-us-info-details">
+                                            <h4 class="tp-contact-us-info-title" style="color:#000">Sub Branch </h4>
+                                            <a href="#" style="color: rgba(0, 0, 0, 0.7);">Office No. A 105,Siddhgiri
+                                                Business Center,Swami Vivekananda Rd,
+                                                Jijamata Colony, Borivali West, Mumbai, Maharashtra 400092</a>
+                                            <!-- <a href="tel:(+91)76001726">(+91) 76001726</a> -->
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                                <div class="tp-contact-us-content text-center" data-speed="1.2"
+                                    style="background: #F6F6F9;">
+                                    <div class="tp-contact-us-thumb d-flex justify-content-center">
+                                        <img src="assets/img/9753566_4257857.jpg" alt="">
+                                    </div>
+                                    <div class="tp-contact-us-bottom">
+                                        <div class="tp-contact-us-info-details">
+                                            <h4 class="tp-contact-us-info-title" style="color:#000">Sub Branch</h4>
+                                            <a href="#" style="color: rgba(0, 0, 0, 0.7);">Office No. A-420,Shiv Cinema,
+                                                Sunwest bank Complex, Nr. Mukta
+                                                A-2, Ashram Rd, opp. City Gold Cinema, Ahmedabad, Gujarat 380009</a>
+                                            <!-- <a href="tel:(+91)76001726">(+91) 76001726</a> -->
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </main>
 
